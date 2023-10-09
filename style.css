@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: blueviolet;
+}
+
+#main {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 3px 7px 20px rgb(45, 5, 83);
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  margin: 5px 0;
+  background-color: violet;
+  border-radius: 5px;
+  box-shadow: 3px 4px 10px rgb(111, 21, 196);
+}
+
+li .task-text {
+  flex: 1;
+}
+
+li .actions {
+  display: flex;
+}
+
+li .actions button {
+  margin-left: 10px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+li .actions button:hover {
+  background-color: #f0f0f0;
+}
